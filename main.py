@@ -1,7 +1,7 @@
-def input_f():
+def inputs():
     while True:
         x = int(input('Введите натуральное число'))
-        if n > 0:
+        if x > 0:
             break
         print('Неверные даные')
     return x
@@ -14,12 +14,12 @@ def x3_1n(x):
 
 def collatz(x):
     result = [x]
-    if n == 1:
+    if x == 1:
         pass
     elif x % 2 == 0:
-        result.extend(x2(n))
+        result.extend(x2(x))
     else:
-        result.extend(x3_1(n))
+        result.extend(x3_1(x))
     return result
 
 if __name__ == '__main__':
