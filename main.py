@@ -1,4 +1,4 @@
-def inputs():
+]def inputs():
     while True:
         x = int(input('Введите натуральное число'))
         if x > 0:
@@ -9,7 +9,7 @@ def inputs():
 def x2(x):
     return collatz(x // 2)
 
-def x3_1n(x):
+def x3_1(x):
     return collatz(x*3+1)
 
 def collatz(x):
