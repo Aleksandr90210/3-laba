@@ -1,4 +1,4 @@
-]def inputs():
+def inputs():
     while True:
         x = int(input('Введите натуральное число'))
         if x > 0:
